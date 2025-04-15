@@ -45,6 +45,33 @@ This project uses a **Recurrent Neural Network (RNN)** to predict future **Bitco
 - keras
   
 ---
+
+Practical-15
+--# Vehicle Miles Prediction using RNN
+
+This project uses a Recurrent Neural Network (RNN) to predict vehicle miles traveled using historical data from Oregon counties.
+
+## 📁 Dataset
+- **File**: Oregon_Vehicle_Miles_Traveled_by_county_2019_to_1991.csv
+- Source: Data from Oregon’s Department of Transportation
+- Focus: BAKER county
+
+## 🧠 Model
+- **Type**: RNN (SimpleRNN Layer)
+- **Input**: 10 previous years of vehicle miles
+- **Output**: Predicted vehicle miles for the next year
+- **Framework**: TensorFlow/Keras
+
+## 🔍 Evaluation
+- MSE: Mean Squared Error
+- MAE: Mean Absolute Error
+- R² Score: Coefficient of determination
+- Visual plot: Predicted vs Actual vehicle miles
+
+## 📊 Usage
+Run the script:
+
+---
   
 PRATICAL-13 # 📈 RNN Alcohol Sales Prediction
 
@@ -71,7 +98,7 @@ A plot is generated to show model performance over 50 epochs.
 - tensorflow / keras
 ## 🏃‍♂️ How to Run
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.t
 
 
 
