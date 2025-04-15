@@ -1,14 +1,11 @@
-# Practical_14 📈 RNN-Based Bitcoin Price Predictor
 
+# README FOR PRACTICALS
+Practical_14 📈 RNN-Based Bitcoin Price Predictor
 This project uses a **Recurrent Neural Network (RNN)** to predict future **Bitcoin prices** based on historical closing price data.
-
----
 
 ## 📂 Dataset
 - **File:** `btc-1.csv`
 - **Column Used:** `Close` (closing price of Bitcoin)
-
----
 
 ## 🧠 Model Architecture
 
@@ -17,9 +14,7 @@ This project uses a **Recurrent Neural Network (RNN)** to predict future **Bitco
 - **Layer 2:** Dense (1 unit, output layer)
 - **Loss Function:** Mean Squared Error (MSE)
 - **Optimizer:** Adam
-
----
-
+  
 ## ⚙️ How It Works
 
 1. Load and normalize the closing prices.
@@ -32,24 +27,18 @@ This project uses a **Recurrent Neural Network (RNN)** to predict future **Bitco
 5. Plot predicted vs actual prices.
 6. (Optional) Confusion-matrix style heatmap for binned predictions.
 
----
-
 ## 📊 Evaluation Metrics
 
 - **MSE**: How far predictions are from actual values (squared error).
 - **MAE**: Average error in predictions.
 - **R² Score**: How much of the variation in price is explained by the model (closer to 1 = better).
 
----
-
 ## 🔥 Visualization
 
 - **Actual vs Predicted Price Plot**
 - **Confusion-Matrix Style Heatmap** using binned values
 
----
-
-## 🛠 Requirements
+## 🛠 Requirements_2
 
 - Python 3.x
 - numpy
@@ -57,7 +46,8 @@ This project uses a **Recurrent Neural Network (RNN)** to predict future **Bitco
 - matplotlib
 - sklearn
 - keras
-
+```bash
+pip install -r requirements_2.txt
   
 PRATICAL-13 # 📈 RNN Alcohol Sales Prediction
 
